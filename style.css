@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to right,#051c35, #1e2435) ;
+}
+
+.container{
+    padding: px;
+    user-select: none;
+    margin: 100px auto;
+    background: #141431;
+    color: #b3b8cd;
+    border-radius: 5px;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(88, 86, 86, 0.75);
+}
+
+.img-foto{
+    background: url(images/ba8191cf-dfe7-4b96-8d67-e84edf36d084.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.perfil{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    border: 1px solid #131c2c;
+    padding: 7px;
+    background: #131c2c;
+}
+
+.perfil-nome{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 27px 0 0 120px;
+}
+
+.sobre{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 35px;
+    line-height: 22px;
+}
+
+button{
+    
+    font-size: 15px;
+    margin: 10px 0 40px 0;
+}
+
+.msg-btn, .email-btn{
+    color: #ffffff;
+    font-size: 16px;
+    width: 140px;
+    background: #30bd05;
+    border: 1px solid #30bd05;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+
+.msg-btn:hover{
+    background: transparent;
+    transition: .5s;
+}
+
+.email-btn{
+    margin-left: 10px;
+    background: transparent;
+    color:#b3b8cd;;
+}
+
+.email-btn:hover{
+    color: #fff;
+    background: #30bd05;
+    transition: .5s;
+}
+
+.area-icones{
+    margin-bottom: 30px;
+
+}
+
+.container i{   
+    padding-left: 20px;
+    font-size: 25px;    
+    cursor: pointer;
+    transition: .5s;
+
+}
+.container i:hover{
+    color: #30bd05;
+}
